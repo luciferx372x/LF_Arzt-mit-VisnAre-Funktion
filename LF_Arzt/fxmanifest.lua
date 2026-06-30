@@ -6,7 +6,7 @@ description 'Automatisierter NPC-Arzt für visn-are'
 version '1.0.1'
 
 shared_scripts {
-    '@es_extended/imports.lua', -- Lädt die ESX-Shared-Objekte automatisch
+    '@es_extended/imports.lua', 
     'config.lua'
 }
 
