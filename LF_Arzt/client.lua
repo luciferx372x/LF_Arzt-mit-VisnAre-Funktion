@@ -18,7 +18,7 @@ AddEventHandler('doctor:healPlayer', function()
     TriggerEvent('visn_are:resetHealthBuffer')
     TriggerEvent('visn_are:resetHealth')
 
-    -- Dies ist nun die einzige Benachrichtigung
+  
     ESX.ShowNotification("~g~Du wurdest vollständig geheilt!")
     print("^2[LF_Arzt] doctor:healPlayer wurde erfolgreich ausgeführt.^7")
 end)
