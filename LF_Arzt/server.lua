@@ -14,11 +14,11 @@ AddEventHandler('visn_npc_med:payTreatment', function(isMobile)
     if xPlayer.getAccount('money').money >= amount then
         xPlayer.removeAccountMoney('money', amount)
         
-        -- VISN-ARE SERVER REVIVE
+      
         TriggerEvent('visn_are:server:revivePlayer', src)
         TriggerClientEvent('visn_are:client:revivePlayer', src)
         
-        -- Benachrichtigung hier entfernt, um Doppelung zu vermeiden
+      
     else
         TriggerClientEvent('esx:showNotification', src, "~r~Nicht genug Geld!")
     end
